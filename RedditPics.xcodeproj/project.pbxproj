@@ -11,6 +11,10 @@
 		01ACA61D1C4966DA00A8AF09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ACA61C1C4966DA00A8AF09 /* ViewController.swift */; };
 		01ACA6201C4966DA00A8AF09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01ACA61E1C4966DA00A8AF09 /* Main.storyboard */; };
 		01ACA6221C4966DA00A8AF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01ACA6211C4966DA00A8AF09 /* Assets.xcassets */; };
+		01ACA62A1C496BBC00A8AF09 /* PicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ACA6291C496BBC00A8AF09 /* PicCell.swift */; };
+		01D2B67E1C4DDAE700ACFDFE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D2B67D1C4DDAE700ACFDFE /* SwiftyJSON.swift */; };
+		01D2B6801C4DE76100ACFDFE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D2B67F1C4DE76100ACFDFE /* Data.swift */; };
+		01D2B6821C4DEB2600ACFDFE /* Pic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D2B6811C4DEB2600ACFDFE /* Pic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		01ACA61F1C4966DA00A8AF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01ACA6211C4966DA00A8AF09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01ACA6231C4966DA00A8AF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01ACA6291C496BBC00A8AF09 /* PicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicCell.swift; sourceTree = "<group>"; };
+		01D2B67D1C4DDAE700ACFDFE /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../SwiftyJSON.swift; sourceTree = "<group>"; };
+		01D2B67F1C4DE76100ACFDFE /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		01D2B6811C4DEB2600ACFDFE /* Pic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +60,15 @@
 		01ACA6191C4966DA00A8AF09 /* RedditPics */ = {
 			isa = PBXGroup;
 			children = (
+				01D2B67D1C4DDAE700ACFDFE /* SwiftyJSON.swift */,
 				01ACA61A1C4966DA00A8AF09 /* AppDelegate.swift */,
 				01ACA61C1C4966DA00A8AF09 /* ViewController.swift */,
+				01D2B6811C4DEB2600ACFDFE /* Pic.swift */,
 				01ACA61E1C4966DA00A8AF09 /* Main.storyboard */,
+				01ACA6291C496BBC00A8AF09 /* PicCell.swift */,
 				01ACA6211C4966DA00A8AF09 /* Assets.xcassets */,
 				01ACA6231C4966DA00A8AF09 /* Info.plist */,
+				01D2B67F1C4DE76100ACFDFE /* Data.swift */,
 			);
 			path = RedditPics;
 			sourceTree = "<group>";
@@ -131,8 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D2B6821C4DEB2600ACFDFE /* Pic.swift in Sources */,
 				01ACA61D1C4966DA00A8AF09 /* ViewController.swift in Sources */,
+				01D2B6801C4DE76100ACFDFE /* Data.swift in Sources */,
 				01ACA61B1C4966DA00A8AF09 /* AppDelegate.swift in Sources */,
+				01ACA62A1C496BBC00A8AF09 /* PicCell.swift in Sources */,
+				01D2B67E1C4DDAE700ACFDFE /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +290,7 @@
 				01ACA6281C4966DA00A8AF09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
